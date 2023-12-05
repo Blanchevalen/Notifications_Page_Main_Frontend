@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="keywords" content="simple semantic HTML, costum CSS, very simple JS, frontendmentor">
+  <meta name="description" content="Simple Notifications page project for juniors from FrontendMentor.com">
+  <meta name="author" content="Tipi Henriett">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./notficationsMainPage.css">
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+<body>
+  <header>
+    <div id="header_one"><h1>Notifications</h1>
+    <p id="unread_number">null</p></div>
+    <button id="mark_button">Mark all as read</button>
+  </header>
+  <main>
+    <article class="unread-message">
+      <div><img class="avatar-picture" src="./assets/images/avatar-mark-webber.webp" alt="Mark Webber picture" title="Mark Webber picture"></div>
+      <div><div><h2>Mark Webber</h2>
+      <p>reacted to your recent post <span class="p-grey">My first tournament today!</span><span class="unread-circle"></span></p></div>
+      <p class="time">1m ago</p></div>
+    </article>
+    <article class="unread-message">
+      <div><img class="avatar-picture" src="./assets/images/avatar-angela-gray.webp" alt="Angela Grey picture" title="Angela Grey picture">
+      </div><div><div> <h2>Angela Gray</h2>
+      <p>followed you<span class="unread-circle"></span></p></div>
+      <p class="time">5m ago</p></div>
+    </article>
+    <article class="unread-message">
+      <div><img class="avatar-picture" src="./assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson picture" title="Jacon Thompson picture">
+      </div><div><div><h2>Jacob Thompson</h2>
+      <p>has joined your group <span class="p-blue">Chess Club</span><span class="unread-circle"></span></p></div>
+      <p class="time">1 day ago</p></div>
+    </article>
+    <article class="message">
+      <div><img class="avatar-picture" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin picture" title="Rizky Hasanuddin picture">
+      </div><div><h2>Rizky Hasanuddin</h2>
+      <p>sent you a private message</p>
+      <p class="time">5 days ago</p>
+      <div id="p-bordered"><p >Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+        I'm already having lots of fun and improving my game.</p></div></div>
+    </article>
+    <article class="message" id="chess-container" >
+     <div> 
+      <img class="avatar-picture" src="./assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith picture" title="Kimberly Smith picture">
+     </div>
+     <div id="chess-picture-container">
+      
+    <h2>Kimberly Smith</h2>
+          <p> commented on your picture</p>
+        
+      <div>
+      <p class="time">1 week ago</p>
+    </div></div>
+    <div id="chess-pict-box"> <img id="chess-picture" src="./assets/images/image-chess.webp" alt="Chess picture" title="chess picture"></div> 
+    </article>
+    <article class="message">
+      <div><img class="avatar-picture" src="./assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson picture" title="Nathan Peterson picture">
+      </div><div> <h2>Nathan Peterson</h2>
+      <p>reacted to your recent post  <span class="p-grey">5 end-game strategies to increase your win rate</span></p>
+      <p class="time">2 weeks ago</p></div>
+    </article>
+    <article class="message">
+      <div><img class="avatar-picture" src="./assets/images/avatar-anna-kim.webp" alt="Anna Kim picture" title="Anna Kim picture">
+      </div><div><h2>Anna Kim</h2>
+      <p>left the group <span class="p-blue">Chess Club</span></p>
+      <p class="time">2 weeks ago</p></div>
+    </article>
+ </main>
+  <footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+   </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
